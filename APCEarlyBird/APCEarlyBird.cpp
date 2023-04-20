@@ -11,7 +11,7 @@
 // resume main process thread - this trigger routine from APC queue
 int main()
 {
-	auto& shellcode = Payloads::x64_reverse_shell;
+	auto& shellcode = Payloads::x64_notepad;
 	SIZE_T shellSize = sizeof shellcode;
 	STARTUPINFOA si{};
 	PROCESS_INFORMATION pi{};

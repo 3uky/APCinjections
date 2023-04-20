@@ -3,24 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "APCQueue", "..\APCQueue\APCQueue.vcxproj", "{AF2B1EE3-64DB-458A-8950-DA8FCEDB8378}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "APCQueue", "APCQueue\APCQueue.vcxproj", "{AF2B1EE3-64DB-458A-8950-DA8FCEDB8378}"
 	ProjectSection(ProjectDependencies) = postProject
 		{9CF09408-25BB-41B4-AA40-55F02A5478B4} = {9CF09408-25BB-41B4-AA40-55F02A5478B4}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "APCEarlyBird", "..\APCEarlyBird\APCEarlyBird.vcxproj", "{A7FD522A-7603-40BE-8E1A-B87F0E52AF44}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "APCEarlyBird", "APCEarlyBird\APCEarlyBird.vcxproj", "{A7FD522A-7603-40BE-8E1A-B87F0E52AF44}"
 	ProjectSection(ProjectDependencies) = postProject
 		{9CF09408-25BB-41B4-AA40-55F02A5478B4} = {9CF09408-25BB-41B4-AA40-55F02A5478B4}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "APCNtAlert", "..\APCNtAlert\APCNtAlert.vcxproj", "{6EB8B733-31E7-4F35-BA38-DBA435E255AA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "APCNtAlert", "APCNtAlert\APCNtAlert.vcxproj", "{6EB8B733-31E7-4F35-BA38-DBA435E255AA}"
 	ProjectSection(ProjectDependencies) = postProject
 		{9CF09408-25BB-41B4-AA40-55F02A5478B4} = {9CF09408-25BB-41B4-AA40-55F02A5478B4}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Payloads", "..\Payloads\Payloads.vcxproj", "{9CF09408-25BB-41B4-AA40-55F02A5478B4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Payloads", "Payloads\Payloads.vcxproj", "{9CF09408-25BB-41B4-AA40-55F02A5478B4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALWinApi", "..\ALWinApi\ALWinApi.vcxproj", "{BD2636D4-51D8-470D-AE12-5912BBFCDFCB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALWinApi", "ALWinApi\ALWinApi.vcxproj", "{BD2636D4-51D8-470D-AE12-5912BBFCDFCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

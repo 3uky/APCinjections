@@ -1,7 +1,6 @@
 #include <iostream>
 #include <Windows.h>
 #include <TlHelp32.h>
-#include <vector>
 #include <optional>
 
 #include "Payloads.h"
