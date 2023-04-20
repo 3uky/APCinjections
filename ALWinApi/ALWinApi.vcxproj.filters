@@ -18,5 +18,13 @@
     <ClInclude Include="ALWinApi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="IALWinApi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ALWinApi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
